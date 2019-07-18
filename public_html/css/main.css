@@ -1,0 +1,74 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#red {
+    height: 20px;
+    width: 20px;
+    background: red;
+}
+#block {
+    height: 100px;
+    width: 150px;
+    background: greenyellow;
+    /*border-radius: 5px;*/
+}
+/*munu*/
+.menu-item {
+    border: 2px solid greenyellow;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.menu-item .submenu {
+    height: 40px;
+    width: 120px;
+    background: lightskyblue;
+    position: absolute;
+    cursor: pointer;
+}
+/*tabs*/
+#tads .tab {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+}
+#tads .whiteborder {
+    border: 1px solid #707070;
+    border-bottom: 1px solid #fff;
+    border-radius: 3px 3px 0 0;
+    
+}
+#tads .tabContent {
+    width: 300px;
+    height: 60px;
+    border: 1px solid #707070;
+    position: relative;
+    top: -1px;
+    z-index: 1;
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+}
+#tads .hide {
+    display: none;
+}
+#tads .show {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
